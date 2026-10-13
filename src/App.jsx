@@ -99,7 +99,7 @@ function App() {
       description:
         "A learning platform for BCA students providing notes, previous year papers, resources, projects and career guidance.",
       tech: "React • Vite • JavaScript",
-      link: "#",
+      link: "https://bcahub.onrender.com",
     },
 
     {
@@ -255,25 +255,30 @@ function App() {
                 <MessageCircle size={20} />
 
                 Connect on WhatsApp
-
               </a>
+              <div className="resume-buttons">
 
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noreferrer"
+    className="btn-secondary"
+  >
+    <Mail size={20} />
+    View Resume
+  </a>
 
-              <a
-                href="/resume.pdf"
-                download
-                className="btn-secondary"
-              >
+  <a
+    href="/resume.pdf"
+    download="Ramdas-Patel-Resume.pdf"
+    className="btn-secondary"
+  >
+    <Download size={20} />
+    Download Resume
+  </a>
 
-                <Download size={20} />
-
-                Download Resume
-
-              </a>
-
+</div>
             </div>
-
-
             {/* ================================
                 SOCIAL LINKS
             ================================= */}
@@ -541,7 +546,7 @@ function App() {
                   </small>
 
                   <strong>
-                    India
+                    Delhi NCR India
                   </strong>
 
                 </div>

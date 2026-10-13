@@ -266,6 +266,11 @@ button {
 
   margin-top: 35px;
 }
+.resume-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
 
 .btn-primary,
 .btn-secondary {
